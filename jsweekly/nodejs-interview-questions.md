@@ -1,7 +1,16 @@
-Node.js面试问答
+```js
+{
+  "title": "Node.js面试问答",
+  "id": null,
+  "author": "Gergely Nemeth",
+  "digest": "常用的Node.js面试问答题，需要的朋友可以拿去参考",
+  "tags": ["nodejs"]
+}
+```
 
 出自：[http://blog.risingstack.com/node-js-interview-questions](http://blog.risingstack.com/node-js-interview-questions)
-本文对于招聘者和求职者均适应，作为招聘者，自己要先知道答案哦。
+
+本文对于招聘者和求职者均适用，作为招聘者，自己要先知道答案哦。
 
 郑重说明三点：
 1. 以下罗列的只是一些基础问题，判断面试者的能力绝不依赖于这些问题，但是可以帮你了解面试者的大概水平。
@@ -21,7 +30,7 @@ Node.js面试问答
 * 什么是测试金字塔(test pyramid)？请举例说明当我们在实现HTTP APIs时该如何测试。
 * 你最喜欢的HTTP框架是什么？为什么？
 
-下面是我们最喜欢的`参考答案`！
+下面是我们最喜欢的参考答案！
 
 ### 什么是错误优先的回调(error-first callback)？
 
@@ -51,7 +60,7 @@ fs.readFile(filePath, function(err, data) {
 
 这个问题需要面试者有一点服务器架构的经验了，算是可以区别出初学者。
 
-* 什么是事件循环(event loop)？
+### 什么是事件循环(event loop)？
 
 TL;DR: (太长别看/Too Long Don't Read)
 从开发者的角度来讲，Node.js是单线程运行的，虽然实际上Node.js通过libuv产生了很多线程。
@@ -76,7 +85,7 @@ TL;DR: (太长别看/Too Long Don't Read)
 
 压根就不是Node的问题，不过能把问题说清楚就已经算是回答问题了。
 
-* 为什么要使用npm shrinkwrap？
+### 为什么要使用npm shrinkwrap？
 
 shrinkwrap用来锁住依赖库的版本，这样你就可以控制package安装时所依赖的版本了。 - npmjs.com
 
