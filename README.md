@@ -2,4 +2,4 @@
 Wechat News Editor
 
 ## Sync
-Sync with Github Webhook
+Sync with wechat by Github webhook
