@@ -1,4 +1,4 @@
-# wechat
+# Wechat
 Wechat News Editor
 
 ## Sync
