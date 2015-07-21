@@ -6,7 +6,7 @@
 * MEAN - MongoDB, Express, AngularJS, Node.js
 * [Sails.js](http://sailsjs.org/) - 
 
-### JavaScript工具库(全端)
+### 工具库
 * lodash/Underscore.js - 
 
 ### 模块化
@@ -64,7 +64,23 @@
 * cnpm
 
 ### 后端框架
-* Express
+* Express -
+* Hapi -
+* Koa -
+* Restify -
+* Meteor -
+
+### 调试
+* node-inspector
+
+### 进程管理
+* PM2 -
+* forever -
+* supervisor -
+
+### Node.js管理
+* n
+* nvm
 
 ## 硬件
 * cylon.js
