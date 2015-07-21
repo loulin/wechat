@@ -5,4 +5,3 @@ Wechat News Editor
 Sync with wechat by Github webhook
 
 ## Update
-Hash
