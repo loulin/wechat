@@ -1,0 +1,14 @@
+{
+  "mode": "pre",
+  "tag": "beta",
+  "initialVersions": {
+    "@weixin-sdk/auth": "0.0.0",
+    "@weixin-sdk/core": "0.0.0",
+    "@weixin-sdk/eslint-config": "0.0.0",
+    "@weixin-sdk/mp": "0.0.0",
+    "@weixin-sdk/open": "0.0.0",
+    "@weixin-sdk/open-service": "0.0.0",
+    "@weixin-sdk/tsconfig": "0.0.0"
+  },
+  "changesets": ["initial-release"]
+}

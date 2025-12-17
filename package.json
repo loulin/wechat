@@ -1,0 +1,31 @@
+{
+  "name": "weixin-sdk",
+  "private": true,
+  "packageManager": "pnpm@9.15.1",
+  "type": "module",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "turbo run build && changeset publish",
+    "prepare": "husky",
+    "docs:dev": "turbo run docs:dev --filter=docs",
+    "docs:build": "turbo run docs:build --filter=docs"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.10",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.4.2",
+    "turbo": "^2.3.3"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
