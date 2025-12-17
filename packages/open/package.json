@@ -1,6 +1,10 @@
 {
   "name": "@weixin-sdk/open",
   "version": "0.1.0-beta.1",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "description": "微信开放平台第三方平台 SDK",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -49,7 +53,7 @@
   "bugs": {
     "url": "https://github.com/loulin/wechat/issues"
   },
-  "homepage": "https://github.com/loulin/wechat/tree/main/packages/open#readme",
+  "homepage": "https://github.com/loulin/wechat/tree/master/packages/open#readme",
   "dependencies": {
     "@weixin-sdk/core": "workspace:*"
   },
