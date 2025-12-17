@@ -1,6 +1,10 @@
 {
   "name": "@weixin-sdk/auth",
   "version": "0.1.0-beta.1",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "description": "微信 OAuth 认证 Express 中间件（基于 Passport.js）",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -50,7 +54,7 @@
   "bugs": {
     "url": "https://github.com/loulin/wechat/issues"
   },
-  "homepage": "https://github.com/loulin/wechat/tree/main/packages/auth#readme",
+  "homepage": "https://github.com/loulin/wechat/tree/master/packages/auth#readme",
   "dependencies": {
     "@weixin-sdk/core": "workspace:*"
   },
