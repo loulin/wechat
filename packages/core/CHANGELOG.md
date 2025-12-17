@@ -1,5 +1,11 @@
 # @weixin-sdk/core
 
+## 0.1.0-beta.1
+
+### Patch Changes
+
+- 22dfd1d: ci: enable provenance and bump beta version
+
 ## 0.1.0-beta.0
 
 ### Minor Changes

@@ -1,6 +1,10 @@
 {
   "name": "@weixin-sdk/mp",
-  "version": "0.1.0-beta.0",
+  "version": "0.1.0-beta.1",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "description": "微信公众号/服务号 API SDK",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -49,7 +53,7 @@
   "bugs": {
     "url": "https://github.com/loulin/wechat/issues"
   },
-  "homepage": "https://github.com/loulin/wechat/tree/main/packages/mp#readme",
+  "homepage": "https://github.com/loulin/wechat/tree/master/packages/mp#readme",
   "dependencies": {
     "@weixin-sdk/core": "workspace:*",
     "debug": "^4.4.0"

@@ -1,6 +1,10 @@
 {
   "name": "@weixin-sdk/core",
-  "version": "0.1.0-beta.0",
+  "version": "0.1.0-beta.1",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "description": "微信 SDK 共享核心模块 - HTTP 客户端、签名、加解密、错误处理",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -46,7 +50,7 @@
   "bugs": {
     "url": "https://github.com/loulin/wechat/issues"
   },
-  "homepage": "https://github.com/loulin/wechat/tree/main/packages/core#readme",
+  "homepage": "https://github.com/loulin/wechat/tree/master/packages/core#readme",
   "devDependencies": {
     "@weixin-sdk/eslint-config": "workspace:*",
     "@weixin-sdk/tsconfig": "workspace:*",
