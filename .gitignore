@@ -33,3 +33,6 @@ coverage/
 # VitePress
 .vitepress/cache/
 .vitepress/dist/
+
+# NPM configuration
+.npmrc
