@@ -10,5 +10,5 @@
     "@weixin-sdk/open-service": "0.0.0",
     "@weixin-sdk/tsconfig": "0.0.0"
   },
-  "changesets": ["initial-release"]
+  "changesets": ["initial-release", "warm-stars-glow"]
 }
