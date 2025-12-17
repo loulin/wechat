@@ -1,5 +1,14 @@
 # @weixin-sdk/open-service
 
+## 0.1.0-beta.1
+
+### Patch Changes
+
+- 22dfd1d: ci: enable provenance and bump beta version
+- Updated dependencies [22dfd1d]
+  - @weixin-sdk/core@0.1.0-beta.1
+  - @weixin-sdk/open@0.1.0-beta.1
+
 ## 0.1.0-beta.0
 
 ### Minor Changes

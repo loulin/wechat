@@ -1,6 +1,6 @@
 {
   "name": "@weixin-sdk/open",
-  "version": "0.1.0-beta.0",
+  "version": "0.1.0-beta.1",
   "description": "微信开放平台第三方平台 SDK",
   "type": "module",
   "main": "./dist/index.cjs",
