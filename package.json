@@ -27,5 +27,11 @@
   },
   "engines": {
     "node": ">=22.0.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "esbuild": ">=0.25.0",
+      "passport": ">=0.6.0"
+    }
   }
 }
