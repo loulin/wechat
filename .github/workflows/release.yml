@@ -31,9 +31,6 @@ jobs:
           cache: pnpm
           registry-url: 'https://registry.npmjs.org'
 
-      - name: Configure NPM Auth
-        run: echo "//registry.npmjs.org/:_authToken=\${NODE_AUTH_TOKEN}" >> .npmrc
-
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
@@ -49,4 +46,3 @@ jobs:
           publish: pnpm changeset publish
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ env.NODE_AUTH_TOKEN }}
